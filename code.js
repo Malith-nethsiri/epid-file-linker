@@ -1,6 +1,6 @@
 function linkEpidFiles() {
   const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
-  const folderId = '1PEpcKLEZS_beDhG6yOW1OgZYMWTO1QPS';
+  const folderId = 'ID_OF_THE_FOLDER_INTHE_GOOGLE_DRIVE'; // HERE --------------
   const folder = DriveApp.getFolderById(folderId);
   const files = folder.getFiles();
 
